@@ -5,10 +5,15 @@
 12: C_DT12.c
 	gcc C_DT12.c -o C_DT12.exe 
 14: C_DT14.c
-	gcc C_DT14.c -o C_DT14.exe 
+	gcc C_DT14.c -o C_DT14.exe
+15: C_DT15.c
+	gcc C_DT15.c -o C_DT15.exe 
 17: C_DT17.c
 	gcc C_DT17.c -o C_DT17.exe
+22: C_DT22.c
+	gcc C_DT22.c -o C_DT22.exe
 29: C_DT29.c
 	gcc C_DT29.c -o C_DT29.exe
 34: C_DT34.c
-	gcc C_DT34.c -o C_DT34.exe 
+	gcc C_DT34.c -o C_DT34.exe
+
