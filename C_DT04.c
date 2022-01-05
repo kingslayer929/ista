@@ -1,6 +1,4 @@
-#include <iostream>
-#include <algorithm>
-using namespace std;
+#include <stdio.h>
 
 int main(){
     int cnt = 0;
@@ -12,8 +10,8 @@ int main(){
                 break;
             }
     int input;
-    while(cin >> input){
-        cout << arr[input - 1] << "\n";
+    while(scanf("%d", &input) != EOF){
+        printf("%d\n", arr[input - 1]);
     }
     return 0;
 }

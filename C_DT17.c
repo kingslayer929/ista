@@ -1,13 +1,12 @@
-#include <iostream>
-#include <string>
-using namespace std;
+#include <stdio.h>
+#include <string.h>
 
 int main(){
-    string str;
-    cin >> str;
-    int len = str.length();
+    char str[1000];
+    scanf("%s", str);
+    int len = strlen(str);
     if(len % 2 == 1){
-        cout << "No\n";
+        printf("No\n");
     }else{
         int cnt = 0;
         for (int i = 0; i < len; i++){
@@ -22,9 +21,9 @@ int main(){
             }
         }
         if(cnt == 0){
-            cout << "Yes\n";
+            printf("Yes\n");
         }else{
-            cout << "No\n";
+            printf("No\n");
         }
     }
     return 0;

@@ -1,15 +1,16 @@
-#include <utility>
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
-#include <cmath>
-using namespace std;
-
+#include <math.h>
+struct pair{
+    char first;
+    int second;
+};
 int main(){
     int c, cnt = 0;
     char str[105];
     scanf("%d%s", &c, str);
-    pair<char, int> tree[100];
+    struct pair tree[100];
     for (char *p = strtok(str, ",()\n"); p != NULL; p = strtok(NULL, ",()\n")){
         tree[cnt].first = *p;
         p = strtok(NULL, ",()\n");
